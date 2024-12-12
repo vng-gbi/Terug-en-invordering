@@ -19,8 +19,8 @@ let respecConfig = {
   //previousPublishVersion: "0.0.4",
   
   title: "Terug- en invordering",
-  subtitle: "Submodel van ontologie Inkomen",
-  content: {"mermaid": "", "ch01": "informative", "ch02": ""},
+//  subtitle: "Submodel van ontologie Inkomen",
+//  content: {"mermaid": "", "ch01": "informative", "ch02": ""},
 //  authors:
 //    [
 //      {
