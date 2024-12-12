@@ -30,7 +30,7 @@ dfn{cursor:pointer}
   
   
 <script>document.title = respecConfig.title</script>
-<title>Terug- en invordering</title>
+<title>Normafwijking</title>
   
 <title>Default</title>
   
@@ -113,28 +113,160 @@ ul.index code{color:inherit}
 .hljs-strong{font-weight:700}
 .hljs-link{text-decoration:underline}
 </style>
+<style>
+
+  .sidelabel {
+    position: fixed;
+    -webkit-transform-origin: top right;
+    right: 100%;
+    top: 0;
+    -webkit-transform: rotate(-90deg);
+    padding: 4px 50px 4px 10px;
+    color: white;
+    white-space: nowrap;
+    z-index: 1;
+    background-color: Black;
+  }
+</style>
+<script type="text/javascript">
+   /* Any custom mermaid.js scripts will go here. */
+  </script>
+<style>
+
+  /* Any custom mermaid.js scripts will go here. */
+  }
+</style>
 <script id="initialUserConfig" type="application/json">{
-  "shortName": "Trg-inv",
-  "pubDomain": "hl",
-  "specType": "HL",
-  "specStatus": "IO",
-  "publishDate": "2024-05-16",
-  "publishVersion": "0.2.0",
-  "title": "Terug- en invordering",
-  "editors": [
+  "nl_organisationName": "Logius",
+  "nl_organisationStylesURL": "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
+  "nl_organisationPublishURL": "https://gitdocumentatie.logius.nl/publicatie/",
+  "logos": [
     {
-      "name": "Jan Brinkkemper",
-      "company": "VNG Realisatie",
-      "companyURL": "https://vng.nl/artikelen/vng-realisatie"
+      "src": "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg",
+      "alt": "Logius",
+      "id": "Logius",
+      "height": 77,
+      "width": 44,
+      "url": "https://www.logius.nl/standaarden"
     }
   ],
-  "github": "https://github.com/VNG-Realisatie/Terug-en-invordering",
-  "alternateFormats": [
-    {
-      "label": "pdf",
-      "uri": "terug-en-invordering.pdf"
-    }
+  "postProcess": [
+    null
   ],
+  "latestVersion": [
+    "nl_organisationPublishURL",
+    "pubDomain",
+    "/",
+    "shortName"
+  ],
+  "thisVersion": [
+    "nl_organisationPublishURL",
+    "pubDomain",
+    "/",
+    "specStatus",
+    "-",
+    "specType",
+    "-",
+    "shortName",
+    "-",
+    "publishDate"
+  ],
+  "prevVersion": [
+    "nl_organisationPublishURL",
+    "pubDomain",
+    "/",
+    "previousMaturity",
+    "-",
+    "specType",
+    "-",
+    "shortName",
+    "-",
+    "previousPublishDate"
+  ],
+  "useLogo": true,
+  "useLabel": true,
+  "license": "cc0",
+  "addSectionLinks": true,
+  "localizationStrings": {
+    "en": {
+      "wv": "Draft",
+      "cv": "Recommendation",
+      "vv": "Proposed recommendation",
+      "def": "Definitive version",
+      "basis": "Document",
+      "eo": "Outdated version",
+      "tg": "Rescinded version",
+      "no": "Norm",
+      "st": "Standard",
+      "im": "Information model",
+      "pr": "Guideline",
+      "hr": "Guide",
+      "wa": "Proposed recommendation",
+      "al": "General",
+      "bd": "Governance documentation",
+      "bp": "Best practice"
+    },
+    "nl": {
+      "wv": "Werkversie",
+      "cv": "Consultatieversie",
+      "vv": "Versie ter vaststelling",
+      "def": "Vastgestelde versie",
+      "basis": "Document",
+      "eo": "Verouderde versie",
+      "tg": "Teruggetrokken versie",
+      "no": "Norm",
+      "st": "Standaard",
+      "im": "Informatiemodel",
+      "pr": "Praktijkrichtlijn",
+      "hr": "Handreiking",
+      "wa": "Werkafspraak",
+      "al": "Algemeen",
+      "bd": "Beheerdocumentatie",
+      "bp": "Best practice"
+    }
+  },
+  "sotdText": {
+    "nl": {
+      "sotd": "Status van dit document",
+      "def": "Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
+      "wv": "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie.",
+      "cv": "Dit is een door het TO goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar ",
+      "vv": "Dit is een definitief concept van de nieuwe versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
+      "basis": "Dit is een document zonder officiële status."
+    },
+    "en": {
+      "sotd": "Status of This Document",
+      "def": "This is the definitive version of this document. Edits resulting from consultations have been applied.",
+      "wv": "This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by TO.",
+      "cv": "This is a proposed recommendation approved by TO. Comments regarding this document may be sent to ",
+      "vv": "This is the definitive concept of this document. Edits resulting from consultations have been applied.",
+      "basis": "This document has no official standing."
+    }
+  },
+  "labelColor": {
+    "def": "#154273",
+    "wv": "#39870c"
+  },
+  "licenses": {
+    "cc0": {
+      "name": "Creative Commons 0 Public Domain Dedication",
+      "short": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "image": "https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-zero.svg"
+    },
+    "cc-by": {
+      "name": "Creative Commons Attribution 4.0 International Public License",
+      "short": "CC-BY",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "image": "https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-by.svg"
+    },
+    "cc-by-nd": {
+      "name": "Creative Commons Naamsvermelding-GeenAfgeleideWerken 4.0 Internationaal",
+      "short": "CC-BY-ND",
+      "url": "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
+      "image": "https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-by-nd.svg"
+    }
+  },
   "localBiblio": {
     "MIM": {
       "href": "https://docs.geostandaarden.nl/mim/mim/",
@@ -149,11 +281,32 @@ ul.index code{color:inherit}
       "date": "December 19, 2023",
       "rawDate": "2023"
     }
-  }
+  },
+  "shortName": "OntInkLvns",
+  "pubDomain": "cim",
+  "specType": "im",
+  "specStatus": "IO",
+  "publishDate": "2024-09-12",
+  "publishVersion": "0.0.1",
+  "title": "Normafwijking",
+  "editors": [
+    {
+      "name": "Jan Brinkkemper",
+      "company": "VNG Realisatie",
+      "companyURL": "https://vng.nl/artikelen/vng-realisatie"
+    }
+  ],
+  "github": "https://vng-gbi.github.io/Normafwijking",
+  "alternateFormats": [
+    {
+      "label": "pdf",
+      "uri": "Normafwijking.pdf"
+    }
+  ]
 }</script>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css"></head>
+<link rel="stylesheet" href="https://gitdocumentatie.logius.nl/publicatie/respec/style/base.css"></head>
 
-<body><h1 id="title" class="title">Terug- en invordering</h1>
+<body><h1 id="title" class="title">Normafwijking</h1>
   <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Dit model is een submodel van de ontologie Inkomen</p>
 </section>
   <section id="sotd"></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">1. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li></ol></nav>
@@ -168,15 +321,15 @@ ul.index code{color:inherit}
 
 
 </section>
-  <section id="conformance"><h2 id="x1-conformiteit"><bdi class="secno">1. </bdi>Conformiteit</h2><p>Naast onderdelen die als niet normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet normatief. Verder is alles in dit document normatief.</p></section>
+  <section id="conformance"><div class="header-wrapper"><h2 id="x1-conformiteit"><bdi class="secno">1. </bdi>Conformiteit</h2><a class="self-link" href="#conformance" aria-label="Permalink for Section 1."></a></div><p>Naast onderdelen die als niet normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet normatief. Verder is alles in dit document normatief.</p></section>
   <section id="tof"></section>
-  <section id="index" class="appendix"><h2 id="a-index"><bdi class="secno">A. </bdi>Index</h2><section id="index-defined-here">
-    <h3 id="a-1-begrippen-gedefinieerd-door-deze-specificatie"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</h3>
+  <section id="index" class="appendix"><div class="header-wrapper"><h2 id="a-index"><bdi class="secno">A. </bdi>Index</h2><a class="self-link" href="#index" aria-label="Permalink for Appendix A."></a></div><section id="index-defined-here">
+    <div class="header-wrapper"><h3 id="a-1-begrippen-gedefinieerd-door-deze-specificatie"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</h3><a class="self-link" href="#index-defined-here" aria-label="Permalink for Appendix A.1"></a></div>
     <ul class="index">
     
   </ul>
   </section><section id="index-defined-elsewhere">
-    <h3 id="a-2-begrippen-gedefinieerd-door-verwijzing"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</h3>
+    <div class="header-wrapper"><h3 id="a-2-begrippen-gedefinieerd-door-verwijzing"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</h3><a class="self-link" href="#index-defined-elsewhere" aria-label="Permalink for Appendix A.2"></a></div>
     <ul class="index">
     
   </ul>
@@ -408,4 +561,4 @@ function hidePanel(panel) {
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">Logius undefined - undefined</div><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
