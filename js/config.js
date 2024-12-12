@@ -18,7 +18,7 @@ let respecConfig = {
   //previousPublishDate: "2022-06-24",
   //previousPublishVersion: "0.0.4",
   
-  title: "Terug- en invorderen",
+  title: "Terug- en invordering",
 //  subtitle: "Tevens een voorbeeld van een gegenereerd Respec document",
 //  content: {"mermaid": "", "ch01": "informative", "ch02": ""},
 //  authors:
@@ -37,7 +37,7 @@ let respecConfig = {
         companyURL: "https://vng.nl/artikelen/vng-realisatie",
       }
     ],
-  github: "https://vng-gbi.github.io/Terug-en-invorderen",
+  github: "https://vng-gbi.github.io/Terug-en-invordering",
 
   //  maxTocLevel: 2,
 
@@ -45,7 +45,7 @@ let respecConfig = {
   alternateFormats: [
       {
           label: "pdf",
-          uri: "Terug-en-invorderen.pdf",
+          uri: "Terug-en-invordering.pdf",
       },
     ],
   localBiblio: {
