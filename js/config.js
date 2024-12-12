@@ -2,24 +2,24 @@ let respecConfig = {
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
-  shortName: "OntInkLvns",
-  pubDomain: "cim",
+  shortName: "Trg-inv",
+  pubDomain: "hl",
 
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane specificatie-types
-  specType: "im",
+  specType: "HL",
   
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane specificatie-statussen
   specStatus: "IO",
-  publishDate: "2024-09-12",
-  publishVersion: "0.0.1",
+  publishDate: "2024-05-16",
+  publishVersion: "0.2.0",
 
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane maturities
   //previousMaturity: "IO",
   //previousPublishDate: "2022-06-24",
   //previousPublishVersion: "0.0.4",
   
-  title: "Normafwijking",
-//  subtitle: "Tevens een voorbeeld van een gegenereerd Respec document",
+  title: "Terug- en invordering",
+//  subtitle: "Submodel van ontologie Inkomen",
 //  content: {"mermaid": "", "ch01": "informative", "ch02": ""},
 //  authors:
 //    [
@@ -37,7 +37,7 @@ let respecConfig = {
         companyURL: "https://vng.nl/artikelen/vng-realisatie",
       }
     ],
-  github: "https://vng-gbi.github.io/Normafwijking",
+  github: "https://github.com/VNG-Realisatie/Terug-en-invordering",
 
   //  maxTocLevel: 2,
 
@@ -45,7 +45,8 @@ let respecConfig = {
   alternateFormats: [
       {
           label: "pdf",
-          uri: "Normafwijking.pdf",
+          uri: "terug-en-invordering.pdf",
+  //        uri: "Respec-bij-VNG-R.pdf",
       },
     ],
   localBiblio: {
