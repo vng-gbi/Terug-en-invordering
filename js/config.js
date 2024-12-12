@@ -2,7 +2,7 @@ let respecConfig = {
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
-  shortName: "OntInkLvns",
+  shortName: "OntInkTenI",
   pubDomain: "cim",
 
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane specificatie-types
@@ -18,7 +18,7 @@ let respecConfig = {
   //previousPublishDate: "2022-06-24",
   //previousPublishVersion: "0.0.4",
   
-  title: "Normafwijking",
+  title: "Terug- en invorderen",
 //  subtitle: "Tevens een voorbeeld van een gegenereerd Respec document",
 //  content: {"mermaid": "", "ch01": "informative", "ch02": ""},
 //  authors:
@@ -37,7 +37,7 @@ let respecConfig = {
         companyURL: "https://vng.nl/artikelen/vng-realisatie",
       }
     ],
-  github: "https://vng-gbi.github.io/Normafwijking",
+  github: "https://vng-gbi.github.io/Terug-en-invorderen",
 
   //  maxTocLevel: 2,
 
@@ -45,7 +45,7 @@ let respecConfig = {
   alternateFormats: [
       {
           label: "pdf",
-          uri: "Normafwijking.pdf",
+          uri: "Terug-en-invorderen.pdf",
       },
     ],
   localBiblio: {
